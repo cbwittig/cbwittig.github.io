@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+
+  padding: 50px 0px;
+  text-align: center;
+  color: #32524d;
+  font-weight: bold
+ }
+
+ h4 {
+
+  padding: 50px 0px;
+  text-align: center;
+  font-weight: bold;
+  color: #32524d
+ }
+
+ h5 {
+  padding-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #32524d
+ }
+
+
+ .navbar {
+  background-color: #333;
+}
+
+.navbar a:hover, .dropdown:hover {
+  background-color: red;
+}
+
+.navbar a {
+  float: right;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.container {
+
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  white-space: normal;
+  position: absolute;
+  top: 100%; /* Bottom of button */
+  right: 0;
+  margin-left: -100px; /* More to the left */
+}
