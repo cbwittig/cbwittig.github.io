@@ -1,0 +1,29 @@
+.iFrameContainer {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.jumbotron {
+    background-image: url("header.jpg"); opacity:0.8;
+    background-size: cover;
+  }
+
+body {
+   
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: strong;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1.25);
+}
+
