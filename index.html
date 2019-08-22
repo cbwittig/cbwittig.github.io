@@ -11,78 +11,73 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   body {
-    font: 24px Montserrat, sans-serif;
-    line-height: 1.8;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.5;
     color: #f5f6f7;
+    background-image: url("bkg-l.jpg");
   }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+  
+  li {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(51, 5, 104);
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(51, 5, 104);
+  }
   .bg-1 { 
-    background-color: #9989f3; /* Lgt Purple */
-    color: #ffffff;
+    background-image: url("bkg-l.jpg");
+    color: rgb(51, 5, 104);
   }
+  
+  .bg-2 { 
+    background-color: #e6e1f9;
+    color: rgb(51, 5, 104);
+  }
+ 
 
-  .bg-4 { 
-    background-color: #291f41; /* Dk Purple */
+  .bg-3 { 
+    background-image: url("flowers.jpg");
     color: #fff;
   }
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #6b36fc !important;
-  }
+  
   </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
+
+  <div class="container-fluid bg-1">
     
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-        <li>Homework Web Projects:</li>
+           <h1>Data Analytics Web Projects | Carol Wittig</h1>
+            
+  </div>
+
+
+<!-- First Container -->
+<div class="container-fluid bg-2">
+  <h1 class="margin">Homework Web Projects:</h1>
+  <br><hr>
+  <ul>
         <li><a href="/m11/index.html">Module 11: HTML & CSS</a></li>
         <li><a href="/m14/index.html">Module 14: JavaScript</a></li>
         <li><a href="https://bbdiver.herokuapp.com/">Module 15:  Plotly Interactive</a></li>
         <li><a href="/m16/index.html">Module 16: D3.js</a></li>
-        <li><a href="#">Module 17: GeoMapping</a></li>
-        <li><a href="#">Module 18: Tableau</a></li>
+        <li><a href="/m17/index.html">Module 17: GeoMapping & Leaflet</a></li>
+        <li><a href="/m18/index.html">Module 18: Tableau</a></li>
       </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h1 class="margin">Data Analytics Web Projects</h1>
-  
-  <h2>Carol Wittig</h2>
 </div>
 
 
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
+<footer class="container-fluid bg-3 text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
 </footer>
-
 </body>
 </html>
