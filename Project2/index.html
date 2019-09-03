@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project 2: Bicycle & Pedestrian Accident Data | Chapel Hill, NC </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700"
+    rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/cslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link id="t-colors" href="skins/blue.css" rel="stylesheet" />
+  <!-- boxed bg -->
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <!-- start header -->
+    <header>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="navbar navbar-static-top">
+            <div class="navigation">
+              <nav>
+                <ul class="nav topnav">
+                  <li class="dropdown active">
+                    <a href="index.html">Home <i class="icon-home"></i></a>
+                  </li>
+
+
+                  <li class="dropdown">
+                    <a href="#">Visualizations<i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="viz1.html">Accident Map</a></li>
+                      <li><a href="viz2.html">Bicycle & Pedestrian Accident Factors | Age</a></li>
+                      <li><a href="viz3.html">Bicycle & Pedestrian Accident Factors | Speed</a></li>
+                      <li><a href="viz4.html">Bicycle & Pedestrian Accident Factors | Comparisons</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">More Information<i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html">About the Project</a></li>
+                      <li><a href="about_db.html">Database Information</a></li>
+                      <li><a href="documentation.html">Technical Documentation</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- end navigation -->
+          </div>
+        </div>
+      </div>
+  </div>
+  </header>
+  <!-- end header -->
+
+
+  <section id="featured">
+    <!-- start slider -->
+    <div id="da-slider" class="da-slider">
+      <!-- INDIVIDUAL MAIN SLIDE -->
+      <div class="da-slide">
+        <h2>Look Both Ways in Chapel Hill</h2>
+        <p>
+          Analyze data from more than 16,500 NC police-reported bicycle-motor vehicle and pedestrian-motor vehicle crashes for the years 1997 through 2013.
+        </p>
+        <a href="about.html" class="da-link">Explore</a>
+
+        <div class="da-img">
+          <img src="img/bike1.jpg" alt="white bicycle" />
+        </div>
+      </div>
+      <!-- END INDIVIDUAL MAIN SLIDE -->
+
+      <!-- INDIVIDUAL MAIN SLIDE -->
+      <div class="da-slide">
+        <h2>Bicycle Accident Map</h2>
+        <p>
+          Regional Chapel Hill, N.C. map identifies the bicycle crash locations with indicators showing severity of injury.
+        </p>
+        <a href="viz1.html" class="da-link">Explore</a>
+        <div class="da-img">
+          <img src="img/basemap_v2.png" alt="Chapel Hill Map" />
+        </div>
+      </div>
+      <!-- END INDIVIDUAL MAIN SLIDE -->
+
+      <!-- INDIVIDUAL MAIN SLIDE -->
+      <div class="da-slide">
+        <h2>Bicycle & Pedestrian Accidents | Factors</h2>
+        <p>
+          These charts provide information on what factors impact bicycle and pedestrian accidents.
+        </p>
+        <a href="viz2.html" class="da-link">Explore</a>
+        <div class="da-img">
+          <img src="img/bike_comparison.png" alt="Bicycle Comparison Chart" />
+        </div>
+      </div>
+      <!-- END INDIVIDUAL MAIN SLIDE -->
+
+      <!-- INDIVIDUAL MAIN SLIDE -->
+      <div class="da-slide">
+        <h2>About the Database</h2>
+        <p>
+          The accident database provide full data query capability. It uses Flask to query the data.
+        </p>
+        <a href="about_db.html" class="da-link">Explore</a>
+        <div class="da-img">
+          <img src="img/mongo.png" alt="MongoDB Screenshot" />
+        </div>
+      </div>
+      <!-- END INDIVIDUAL MAIN SLIDE -->
+      <nav class="da-arrows">
+        <span class="da-arrows-prev"></span>
+        <span class="da-arrows-next"></span>
+      </nav>
+    </div>
+    <!-- end slider -->
+  </section>
+  <section class="callaction">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="big-cta">
+            <div class="cta-text">
+              <h1>Be Careful!</h1><br><h3><span class="highlight"><strong>15 people were killed</strong></span> as a result of bicycle and pedestrian accidents
+                from 2007-2013!</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content">
+    <div class="container">
+
+      <!-- divider -->
+      <div class="row">
+        <div class="span12">
+          <div class="solidline">
+          </div>
+        </div>
+      </div>
+      <!-- end divider -->
+      
+      <!-- Portfolio Projects -->
+      <div class="row">
+        <div class="span12">
+          <h4 class="heading">Preview the <strong>Data</strong></h4>
+          <div class="row">
+            <section id="projects">
+              <ul id="thumbs" class="portfolio">
+
+                <!-- Item Project and Filter Name -->
+                <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+
+                  <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Map Showing Bicycle Incidents"
+                    href="img/basemap_v2.png">
+                    <span class="overlay-img"></span>
+                  </a>
+                  <!-- Thumb Image and Description -->
+                  <img src="img/basemap_v2.png"
+                      alt="This map identifies the bicycle crash locations with indicators showing severity of injury.">
+                </li>
+                <!-- End Item Project -->
+
+
+                <!-- Item Project and Filter Name -->
+                <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                  <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Bicycle ~ Accident Speed Factors"
+                    href="img/bike_carspeed.png">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb font-icon-plus"></span>
+                  </a>
+                  <!-- Thumb Image and Description -->
+                  <img src="img/bike_carspeed.png" alt="This chart identifies the estimated speed of drivers based on the number of bicycle accidents.">
+                </li>
+                <!-- End Item Project -->
+
+                 <!-- Item Project and Filter Name -->
+                 <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                  <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Bicycle ~ Accident Age Factors"
+                    href="img/bike_ages.png">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb font-icon-plus"></span>
+                  </a>
+                  <!-- Thumb Image and Description -->
+                  <img src="img/bike_ages.png" alt="This chart identifies the age of the driver--both bicycle and car based on the number of bicycle accidents.">
+                </li>
+                <!-- End Item Project -->
+
+
+                <!-- Item Project and Filter Name -->
+                <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                  <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Pedestrian Accidents"
+                    href="img/mongo_bike.png">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb font-icon-plus"></span>
+                  </a>
+                  <!-- Thumb Image and Description -->
+                  <img src="img/mongo_bike.png" alt=" This option provides access to the full database for pedestrian and bicycle accidents. It uses Flask to query the data.">
+                </li>
+                <!-- End Item Project -->
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio Projects -->
+
+    </div>
+  </section>
+
+
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/modernizr.custom.28468.js"></script>
+  <script src="js/jquery.cslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
