@@ -42,7 +42,7 @@ Plotly.d3.csv('peds.csv', function(err, rows){
         {label:'Hour of Crash', values:unpack(rows,'hourOfCrash')},
         {label:'Day of the Week', values:unpack(rows,'dayOfWeek')},
         {label:'Weather', values:unpack(rows,'Weather')},
-        {label:'Month of Crash', values:unpack(rows,'causeOfCrash')}
+        {label:'Cause of Crash', values:unpack(rows,'causeOfCrash')}
       ],
       text: unpack(rows, 'pedInjury'),
       marker: {
