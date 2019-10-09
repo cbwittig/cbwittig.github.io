@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1; shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Bootstrap CSS -- Bring in bootstrap first -- above any individual style sheets added-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Visualizing Text: N-Gram | Longitudinal Word Relationship</title>
+</head>
+<!-----------------------------------END OF HEADER ------------------------------------->
+
+<body style="background-color: #f5f3e9;"></body>
+
+<!--------------------------------------- BEGIN NAVBAR FOR TOP-------------------------------------->
+<nav class="navbar navbar-dark" navbar-expand-md style="background-color: #32524d;">
+
+  <a class="navbar-brand" href="./index.html">Visualizing Text</a>
+
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+
+        <div class="nav navbar-right">
+            <a class="nav-link" style="color: white;" href="./comparisons.html">Comparison</a>
+            <a class="nav-link" style="color: white;" href="./data.html">Data</a>
+          </div>
+  <div class="nav-item active">
+
+    <div class="dropdown-container">
+      <!--Container wrapped around-->
+      <button class="dropdown-toggler" type="button" data-toggle="dropdown" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Plots
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="page2.html">IL Landscapes</a></li>
+          <li><a class="dropdown-item" href="page3.html">PTP Arc</a></li>
+          <li><a class="dropdown-item" href="page4.html">N-Gram</a></li>
+          <li><a class="dropdown-item" href="page5.html">Cloud</a></li>
+          <li><a class="dropdown-item" href="page6.html">Bar Graph</a></li>
+        </ul>
+    </div>
+    <!--Container closed-->
+  </div>
+  </div>
+</nav>
+
+<!-------------------ABOVE THIS LINE IS THE NAVBAR ------------------------- COPY FOR ALL PAGES------------->
+
+<div class="container">
+  <!------------------------ROW 1------------------------------>
+
+  <div class="row">
+
+    <div class="col-md-8 " style="background-color: white">
+      <div class="header">
+        <h2>N-Gram: Longitudinal Word Relationship</h2>
+      </div>
+    </div>
+
+    <div class="col-md-4 " style="background-color: white">
+      <div class="header">
+        <h4>Visualizations</h4>
+      </div>
+    </div>
+  </div>
+  <!------------------------ROW 2------------------------------>
+  <div class="row">
+    <div class="col-md-8 " style="background-color: white">
+      <div class="mr-md-2">
+
+      <img src="ngram.png" alt="N-Gram Image" class="img-responsive"
+              style="width:90%; padding-bottom: 40px"></a>
+
+        <p>This illustration shows the changes in how the terms related to library instruction have changed over the last 50 years. The field of librarianship, specifically user services and instruction in higher education, has closely aligned its profession and core mission to the teaching of literacy practices related to search, acquisition, and evaluation of information since the term information literacy was first identified as a societal need by Paul Zurkowski in 1974 in his report to the government’s National Commission on Libraries and Information Science, calling for "total information literacy for the nation" (8). Zurkowski was a lawyer and at the time president of the Information Industry Association.  There were growing issues within academic libraries related to library instruction and reference services during the timeframe that Zurkowski’s report was written: the desire to change the content of instruction from “facts and procedures to concepts and theory,” to “seek recognition of the educational value of bibliographic instruction” from the academy, and to have instruction recognized as a “core function of librarianship” (Hopkins 192).</p>
+
+        <P>Hopkins, Frances L. “A Century of Bibliographic Instruction: The Historical Claim to Professional and Academic Legitimacy.” <i>College & Research Libraries</i>, vol. 43, no. 3, May 1982, pp. 192–98.</P>
+
+        
+      </div>
+    </div>
+
+    <!-- SECOND column -->
+    <div class="col-lg-4 " style="background-color: white">
+      <div class="ml-m2-2">
+          <a href="page1.html"><img src="il.jpg" alt="Image of IL Landscapes" class="img-responsive"
+            style="width:100%; padding-bottom: 40px"></a>
+            <a href="page2.html"><img src="ptp.png" alt="Image of PTP-Arc" class="img-responsive" style="width:100%; padding-bottom: 40px"></a>
+            <a href="page4.html"><img src="wordcloud.png" alt="Word Cloud Image" class="img-responsive" style="width:100%; padding-bottom: 40px"></a>
+        <a href="page5.html"><img src="bar.png" alt="Bar Graph of Selected Word Frequency" class="img-responsive"
+            style="width:100%"></a>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+</body>
+
+</html>

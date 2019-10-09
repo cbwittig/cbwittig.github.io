@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1; shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Bootstrap CSS -- Bring in bootstrap first -- above any individual style sheets added-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Visualizing Text: Data Analysis</title>
+</head>
+<!-----------------------------------END OF HEADER ------------------------------------->
+
+<body style="background-color: #f5f3e9;"></body>
+
+<!--------------------------------------- BEGIN NAVBAR FOR TOP-------------------------------------->
+<nav class="navbar navbar-dark" navbar-expand-md style="background-color: #32524d;">
+
+  <a class="navbar-brand" href="./index.html">Visualizing Text</a>
+
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+
+  <div class="nav navbar-right">
+    <a class="nav-link" style="color: white;" href="./comparisons.html">Comparison</a>
+    <a class="nav-link" style="color: white;" href="./data.html">Data</a>
+  </div>
+  <div class="nav-item active">
+
+    <div class="dropdown-container">
+      <!--Container wrapped around-->
+      <button class="dropdown-toggler" type="button" data-toggle="dropdown" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Plots
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="page2.html">IL Landscapes</a></li>
+        <li><a class="dropdown-item" href="page3.html">PTP Arc</a></li>
+        <li><a class="dropdown-item" href="page4.html">N-Gram</a></li>
+        <li><a class="dropdown-item" href="page5.html">Cloud</a></li>
+        <li><a class="dropdown-item" href="page6.html">Bar Graph</a></li>
+      </ul>
+    </div>
+    <!--Container closed-->
+  </div>
+  </div>
+</nav>
+
+<!-------------------ABOVE THIS LINE IS THE NAVBAR ------------------------- COPY FOR ALL PAGES------------->
+
+  <div class="container">
+  <!------------------------ROW 1------------------------------>
+
+    <div class="row">
+
+      <div class="col-md-12 " style="background-color: white">
+        <div class="header">
+          <h2>Data Analysis</h2>
+          <p>This is proof of concept example showing html output from a panda dataframe for one of my n-grams for n-gram2. This is for the journal <i>Reference Quarterly</i> and <i>Reference & User Services Quarterly</i>. For my research, I have identified 10 journals and for each full run, I will compare ngram2s across the volumes looking for associated words related to literacies (academic and information) specifically identifying critical literacies of reading, writing, and using information sources. I will also have tables for ngram3 and for the full citation information for each volume and issue.</p>
+
+          <table border="1" class="dataframe">
+              <thead>
+                <tr style="text-align: right;">
+                  <th></th>
+                  <th>Column1</th>
+                  <th>Column2</th>
+                  <th>Column3</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>0</th>
+                  <td>isbn</td>
+                  <td>0</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <td>ala</td>
+                  <td>order</td>
+                  <td>14</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>order</td>
+                  <td>code</td>
+                  <td>14</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>u</td>
+                  <td>s</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <th>4</th>
+                  <td>american</td>
+                  <td>library</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <th>5</th>
+                  <td>granger</td>
+                  <td>s</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <th>6</th>
+                  <td>1</td>
+                  <td>800</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th>7</th>
+                  <td>cd</td>
+                  <td>rom</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th>8</th>
+                  <td>library</td>
+                  <td>association</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th>9</th>
+                  <td>more</td>
+                  <td>than</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th>10</th>
+                  <td>1993</td>
+                  <td>ala</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <th>11</th>
+                  <td>you</td>
+                  <td>can</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <th>12</th>
+                  <td>adult</td>
+                  <td>services</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th>13</th>
+                  <td>chicago</td>
+                  <td>il</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th>14</th>
+                  <td>executive</td>
+                  <td>directory</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th>15</th>
+                  <td>reference</td>
+                  <td>books</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <th>16</th>
+                  <td>books</td>
+                  <td>print</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <th>17</th>
+                  <td>il</td>
+                  <td>60611</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <th>18</th>
+                  <td>...</td>
+                  <td>...</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>5828</th>
+                  <td>zhurnal</td>
+                  <td>indexed</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>5829</th>
+                  <td>zip</td>
+                  <td>codes</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>
